@@ -96,7 +96,7 @@ flex-flow：是f">
 flex-direction：属性决定主轴的方向（即项目的排列方向）row (向右)| row-reverse(向左) | column (向下)| column-reverse(向上);
 flex-wrap：如果一条轴线排不下，如何换行 nowrap (默认不换行)| wrap(换行) | wrap-reverse(换行，第一行在下方)
 flex-flow：是f">
-<meta property="og:updated_time" content="2017-05-08T10:04:37.000Z">
+<meta property="og:updated_time" content="2017-05-08T10:13:01.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="简单记录与使用flex布局">
 <meta name="twitter:description" content="flex布局设置在盒子上的属性：
@@ -335,18 +335,18 @@ flex-flow：是f">
 
       
         <h1 id="flex布局"><a href="#flex布局" class="headerlink" title="flex布局"></a>flex布局</h1><h4 id="设置在盒子上的属性："><a href="#设置在盒子上的属性：" class="headerlink" title="设置在盒子上的属性："></a>设置在盒子上的属性：</h4><ul>
-<li>flex-direction：属性决定主轴的方向（即项目的排列方向）row (向右)| row-reverse(向左) | column (向下)| column-reverse(向上);</li>
-<li>flex-wrap：如果一条轴线排不下，如何换行 nowrap (默认不换行)| wrap(换行) | wrap-reverse(换行，第一行在下方)</li>
-<li>flex-flow：是flex-direction属性和flex-wrap属性的简写形式，默认值为row nowrap</li>
-<li>justify-content: 定义了项目在主轴上的对齐方式 flex-start(左对齐默认) | flex-end(右对齐) | center(居中) | space-between (两端对齐)| space-around(两端对齐,两侧有间隙);</li>
-<li>align-items: 属性定义项目在交叉轴上如何对齐 flex-start(交叉轴的起点对齐) | flex-end | center | baseline | stretch(如果项目未设置高度或设为auto，将占满整个容器的高度);</li>
-<li>align-content：属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。flex-start | flex-end | center | space-between | space-around | stretch;<br>设置在项目上的属性：</li>
-<li>order：属性定义项目的排列顺序。数值越小，排列越靠前，默认为0。</li>
-<li>flex-grow：属性定义项目的放大比例，默认为0，即如果存在剩余空间，也不放大。</li>
-<li>flex-shrink：属性定义了项目的缩小比例，默认为1，即如果空间不足，该项目将缩小，如果有一个为0，则为0的不缩小。</li>
-<li>flex-basis：它可以设为跟width或height属性一样的值（比如350px），则项目将占据固定空间。</li>
-<li>flex：建议优先使用这个属性，而不是单独写三个分离的属性，因为浏览器会推算相关值。</li>
-<li>align-self：允许单个项目有与其他项目不一样的上下对齐方式</li>
+<li><code>flex-direction：</code>属性决定主轴的方向（即项目的排列方向）<code>row</code> (向右)| <code>row-reverse</code>(向左) | <code>column</code> (向下)| <code>column-reverse</code>(向上);</li>
+<li><code>flex-wrap：</code>如果一条轴线排不下，如何换行 <code>nowrap</code> (默认不换行)| <code>wrap</code>(换行) | <code>wrap-reverse</code>(换行，第一行在下方)</li>
+<li><code>flex-flow：</code>是<code>flex-direction</code>属性和<code>flex-wrap</code>属性的简写形式，默认值为<code>row nowrap</code></li>
+<li><code>justify-content:</code>定义了项目在主轴上的对齐方式 <code>flex-start</code>(左对齐默认) | <code>flex-end</code>(右对齐) | <code>center</code>(居中) | <code>space-between</code> (两端对齐)| <code>space-around</code>(两端对齐,两侧有间隙);</li>
+<li><code>align-items:</code>属性定义项目在交叉轴上如何对齐 <code>flex-start</code>(交叉轴的起点对齐) | <code>flex-end | center | baseline | stretch</code>(如果项目未设置高度或设为auto，将占满整个容器的高度);</li>
+<li><code>align-content：</code>属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。<code>flex-start | flex-end | center | space-between | space-around | stretch;</code><br>设置在项目上的属性：</li>
+<li><code>order：</code>属性定义项目的排列顺序。数值越小，排列越靠前，默认为0。</li>
+<li><code>flex-grow：</code>属性定义项目的放大比例，默认为0，即如果存在剩余空间，也不放大。</li>
+<li><code>flex-shrink：</code>属性定义了项目的缩小比例，默认为1，即如果空间不足，该项目将缩小，如果有一个为0，则为0的不缩小。</li>
+<li><code>flex-basis：</code>它可以设为跟<code>width</code>或<code>height</code>属性一样的值（比如350px），则项目将占据固定空间。</li>
+<li><code>flex：</code>建议优先使用这个属性，而不是单独写三个分离的属性，因为浏览器会推算相关值。</li>
+<li><code>align-self：</code>允许单个项目有与其他项目不一样的上下对齐方式</li>
 </ul>
 <h1 id="图片居中"><a href="#图片居中" class="headerlink" title="图片居中"></a>图片居中</h1><p><code>vertical-align: middle</code>//让子元素上下居中<br><code>.box{  
     display: -webkit-box;  
