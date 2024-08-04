@@ -817,7 +817,7 @@
         <div class="copyright" >
   
   &copy;  2015 - 
-  <span itemprop="copyrightYear">2017</span>
+  <span itemprop="copyrightYear" id='nowDate'>2017</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
@@ -868,6 +868,11 @@
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
+  nowDate=document.body.querySelector('#nowDate');
+if(nowDate){
+    let d=new Date().getFullYear()
+    nowDate.innerHtml=d;
+}
 </script>
 
 
